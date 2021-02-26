@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="160" started-at="2021-02-23T10:57:10 IST" finished-at="2021-02-23T10:57:10 IST">
+  <suite name="Default suite" duration-ms="13991" started-at="2021-02-26T15:58:24 IST" finished-at="2021-02-26T15:58:38 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="160" started-at="2021-02-23T10:57:10 IST" finished-at="2021-02-23T10:57:10 IST">
-      <class name="com.vm.javaPractice.Exceptions">
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.vm.javaPractice.Exceptions@67205a84]" name="test1" duration-ms="28" started-at="2021-02-23T10:57:10 IST" finished-at="2021-02-23T10:57:10 IST">
+    <test name="Default test" duration-ms="13991" started-at="2021-02-26T15:58:24 IST" finished-at="2021-02-26T15:58:38 IST">
+      <class name="com.vm.SeAutomationTraining.TypeClickAndVerify">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.vm.SeAutomationTraining.TypeClickAndVerify@614ddd49]" name="test" duration-ms="13817" started-at="2021-02-26T15:58:25 IST" finished-at="2021-02-26T15:58:38 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.vm.javaPractice.Exceptions -->
+        </test-method> <!-- test -->
+      </class> <!-- com.vm.SeAutomationTraining.TypeClickAndVerify -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vm.javaPractice.UserFunctions">
+      <class name="com.vm.SeAutomationTraining.TypeClickAndVerify">
         <methods>
           <include name="test"/>
         </methods>
-      </class> <!-- com.vm.javaPractice.UserFunctions -->
+      </class> <!-- com.vm.SeAutomationTraining.TypeClickAndVerify -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

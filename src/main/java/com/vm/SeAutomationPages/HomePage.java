@@ -6,9 +6,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
+	private WebDriver driver;
 	
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
+		this.driver = driver;
 	}
 	
 	@FindBy(xpath = "//a[text()='Add/Remove Elements']")
@@ -25,4 +27,7 @@ public class HomePage {
 		abTestLink.click();
 	}
 
+	public String getTitleOfHomePage() {
+		return driver.getTitle();
+	}
 }

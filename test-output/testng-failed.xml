@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vm.SeAutomationTraining.TypeClickAndVerify">
+      <class name="com.vm.SeAutomationTraining.HandleDropDown">
         <methods>
-          <include name="test"/>
+          <include name="verifyDropDown"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.vm.SeAutomationTraining.TypeClickAndVerify -->
+      </class> <!-- com.vm.SeAutomationTraining.HandleDropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

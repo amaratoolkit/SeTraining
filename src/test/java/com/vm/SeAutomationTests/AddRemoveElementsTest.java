@@ -3,9 +3,9 @@ package com.vm.SeAutomationTests;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.vm.SeAutomation.BaseSeAutomation;
 import com.vm.SeAutomationPages.AddRemoveElementsPage;
 import com.vm.SeAutomationPages.HomePage;
-import com.vm.SeAutomationTraining.BaseSeAutomation;
 
 public class AddRemoveElementsTest extends BaseSeAutomation{
 	

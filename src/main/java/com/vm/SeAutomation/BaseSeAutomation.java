@@ -1,4 +1,4 @@
-package com.vm.SeAutomationTraining;
+package com.vm.SeAutomation;
 
 import java.util.concurrent.TimeUnit;
 

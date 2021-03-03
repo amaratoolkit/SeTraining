@@ -2,16 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13991" started-at="2021-02-26T15:58:24 IST" finished-at="2021-02-26T15:58:38 IST">
+  <suite name="Default suite" duration-ms="4667" started-at="2021-03-03T11:26:46 IST" finished-at="2021-03-03T11:26:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13991" started-at="2021-02-26T15:58:24 IST" finished-at="2021-02-26T15:58:38 IST">
-      <class name="com.vm.SeAutomationTraining.TypeClickAndVerify">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.vm.SeAutomationTraining.TypeClickAndVerify@614ddd49]" name="test" duration-ms="13817" started-at="2021-02-26T15:58:25 IST" finished-at="2021-02-26T15:58:38 IST">
+    <test name="Default test" duration-ms="4667" started-at="2021-03-03T11:26:46 IST" finished-at="2021-03-03T11:26:50 IST">
+      <class name="com.vm.SeAutomationTests.AddRemoveElementsTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.vm.SeAutomationTests.AddRemoveElementsTest@10bbd20a]" name="launchBrowser" is-config="true" duration-ms="7431" started-at="2021-03-03T11:26:38 IST" finished-at="2021-03-03T11:26:46 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.vm.SeAutomationTraining.TypeClickAndVerify -->
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.vm.SeAutomationTests.AddRemoveElementsTest@10bbd20a]" name="launchApplication" is-config="true" duration-ms="3745" started-at="2021-03-03T11:26:46 IST" finished-at="2021-03-03T11:26:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="initilizePages()[pri:0, instance:com.vm.SeAutomationTests.AddRemoveElementsTest@10bbd20a]" name="initilizePages" is-config="true" duration-ms="38" started-at="2021-03-03T11:26:50 IST" finished-at="2021-03-03T11:26:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizePages -->
+        <test-method status="PASS" signature="verifyAddRemoveHeading()[pri:0, instance:com.vm.SeAutomationTests.AddRemoveElementsTest@10bbd20a]" name="verifyAddRemoveHeading" duration-ms="839" started-at="2021-03-03T11:26:50 IST" finished-at="2021-03-03T11:26:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddRemoveHeading -->
+        <test-method status="PASS" signature="killSession()[pri:0, instance:com.vm.SeAutomationTests.AddRemoveElementsTest@10bbd20a]" name="killSession" is-config="true" duration-ms="112" started-at="2021-03-03T11:26:55 IST" finished-at="2021-03-03T11:26:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killSession -->
+      </class> <!-- com.vm.SeAutomationTests.AddRemoveElementsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+
 public class TypeClickAndVerify {
 	 public static WebDriver driver = null;
 	 

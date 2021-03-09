@@ -12,6 +12,15 @@
           <include name="initilizePages"/>
         </methods>
       </class> <!-- com.vm.SeAutomationTests.AddRemoveElementsTest -->
+      <class name="com.vm.SeAutomationTests.HomeTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="launchBrowser"/>
+          <include name="killSession"/>
+          <include name="initializePages"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.vm.SeAutomationTests.HomeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

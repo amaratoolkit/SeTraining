@@ -24,7 +24,7 @@ public class LauchApplication {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		//make it zero
-		driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 		
 		
 	}

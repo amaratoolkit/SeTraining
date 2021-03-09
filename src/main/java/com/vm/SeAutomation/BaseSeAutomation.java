@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseSeAutomation {
-	public WebDriver driver;
+	public static WebDriver driver;
 	
 	@BeforeSuite
 	public void launchBrowser() {
@@ -23,6 +23,7 @@ public class BaseSeAutomation {
 	public void launchApplication() {
 		driver.get("http://the-internet.herokuapp.com/");
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	}
 	

@@ -42,7 +42,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.3.0</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 
 
@@ -55,6 +55,8 @@
 
 
 	</dependencies>
+
+
 
 	<build>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
@@ -77,6 +79,9 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
+					<!-- <configuration> <suiteXmlFiles> pass testng.xml files as argument 
+						from command line <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> </suiteXmlFiles> 
+						</configuration> -->
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
@@ -99,6 +104,18 @@
 					<artifactId>maven-project-info-reports-plugin</artifactId>
 					<version>3.0.0</version>
 				</plugin>
+
+				<plugin>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.22.1</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>testNGSuites/${suiteXmlFile}</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+
+
 			</plugins>
 		</pluginManagement>
 	</build>

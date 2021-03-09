@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vm.SeAutomationTraining.HandleDropDown">
+      <class name="com.vm.SeAutomationTraining.SingleElementVsMultipleElements">
         <methods>
-          <include name="verifyDropDown"/>
+          <include name="verifyMultipleElements"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.vm.SeAutomationTraining.HandleDropDown -->
+      </class> <!-- com.vm.SeAutomationTraining.SingleElementVsMultipleElements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,9 +1,14 @@
 package com.vm.SeAutomation;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -14,9 +19,16 @@ public class BaseSeAutomation {
 	public static WebDriver driver;
 	
 	@BeforeSuite
-	public void launchBrowser() {
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+	public void launchBrowser() throws MalformedURLException {
+//		WebDriverManager.chromedriver().setup();
+//		driver = new ChromeDriver();
+		
+		
+		DesiredCapabilities dc = new DesiredCapabilities().chrome();
+		dc.setPlatform(Platform.WINDOWS);
+		driver = new RemoteWebDriver(new URL("http://siva266:7Wfwz8qNKAn9X4XyNTXE@hub.browserstack.com:80/wd/hub"), dc);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}
 	
 	@BeforeTest

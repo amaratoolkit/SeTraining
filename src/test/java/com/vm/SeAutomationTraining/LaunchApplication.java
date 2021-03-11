@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LauchApplication {
+public class LaunchApplication {
 	public WebDriver driver;
 	
 	@BeforeSuite

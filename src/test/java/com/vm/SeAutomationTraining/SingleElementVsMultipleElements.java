@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SingleElementVsMultipleElements extends LauchApplication{
+public class SingleElementVsMultipleElements extends LaunchApplication{
 
 	//@Test
 	public void verifyMultipleElements() throws InterruptedException {

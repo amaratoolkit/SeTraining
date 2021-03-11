@@ -34,7 +34,7 @@ public class PolyMTestA extends PloyMTestB{
 	
 	public static void main(String[] args) {
 		PolyMTestA pa = new PolyMTestA();
-		ployMTestB = new PloyMTestB();
+		PloyMTestB ployMTestB = new PolyMTestA();
 		pa.calculate(10, 26,40,100);
 		ployMTestB.calculate(10, 26,40,100);
 	}

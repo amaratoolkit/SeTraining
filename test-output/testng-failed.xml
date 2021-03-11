@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vm.SeAutomationTraining.SingleElementVsMultipleElements">
+      <class name="com.vm.SeAutomationTraining.VerificationsInSelenium">
         <methods>
-          <include name="verifyMultipleElements"/>
           <include name="openBrowser"/>
+          <include name="verifyCheckbox"/>
         </methods>
-      </class> <!-- com.vm.SeAutomationTraining.SingleElementVsMultipleElements -->
+      </class> <!-- com.vm.SeAutomationTraining.VerificationsInSelenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

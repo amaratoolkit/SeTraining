@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vm.SeAutomationTraining.VerificationsInSelenium">
+      <class name="com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits">
         <methods>
-          <include name="openBrowser"/>
-          <include name="verifyCheckbox"/>
+          <include name="explicitWaitTest"/>
+          <include name="killSession"/>
         </methods>
-      </class> <!-- com.vm.SeAutomationTraining.VerificationsInSelenium -->
+      </class> <!-- com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

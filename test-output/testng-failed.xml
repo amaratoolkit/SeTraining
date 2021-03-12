@@ -5,7 +5,8 @@
     <classes>
       <class name="com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits">
         <methods>
-          <include name="explicitWaitTest"/>
+          <include name="fluentWaitTest"/>
+          <include name="launchApp"/>
           <include name="killSession"/>
         </methods>
       </class> <!-- com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits -->

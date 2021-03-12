@@ -17,9 +17,10 @@ public class ChildClass extends ParentClass{
 	
 	public static void main(String[] args) {
 		ChildClass cc = new ChildClass();
-		ParentClass pp = new ChildClass();
+		
 		cc.withDrawal();
 		cc.getStatement();
+		
 		System.out.println("call some string === " + cc.r);
 	}
 

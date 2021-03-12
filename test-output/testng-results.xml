@@ -2,31 +2,25 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30036" started-at="2021-03-12T11:05:10 IST" finished-at="2021-03-12T11:05:40 IST">
+  <suite name="Default suite" duration-ms="24900" started-at="2021-03-12T15:52:58 IST" finished-at="2021-03-12T15:53:23 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30036" started-at="2021-03-12T11:05:10 IST" finished-at="2021-03-12T11:05:40 IST">
+    <test name="Default test" duration-ms="24900" started-at="2021-03-12T15:52:58 IST" finished-at="2021-03-12T15:53:23 IST">
       <class name="com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits">
-        <test-method status="FAIL" signature="explicitWaitTest()[pri:0, instance:com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits@d44fc21]" name="explicitWaitTest" duration-ms="29482" started-at="2021-03-12T11:05:10 IST" finished-at="2021-03-12T11:05:39 IST">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits@23faf8f2]" name="launchApp" is-config="true" duration-ms="12347" started-at="2021-03-12T15:52:58 IST" finished-at="2021-03-12T15:53:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="FAIL" signature="fluentWaitTest()[pri:0, instance:com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits@23faf8f2]" name="fluentWaitTest" duration-ms="12326" started-at="2021-03-12T15:53:10 IST" finished-at="2021-03-12T15:53:22 IST">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for number of elements found by By.xpath: //ul[@class='leftmenu']/li to be "5". Current number: "6" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/4k/3vyfypg10rv...}, goog:chromeOptions: {debuggerAddress: localhost:57130}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a509eab9bb21bf53b51eeae50e621a10]]>
+              <![CDATA[Expected condition failed: Element not found (tried for 10 second(s) with 4000 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.xpath: //ul[@class='leftmenu']/li to be "5". Current number: "6" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/4k/3vyfypg10rv...}, goog:chromeOptions: {debuggerAddress: localhost:57130}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a509eab9bb21bf53b51eeae50e621a10
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: Element not found (tried for 10 second(s) with 4000 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits.explicitWaitTest(ImplicitWaitVsExplicitWaits.java:60)
+at com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits.fluentWaitTest(ImplicitWaitVsExplicitWaits.java:89)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -55,13 +49,42 @@ at org.testng.TestNG.run(TestNG.java:1000)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"Path"}
+  (Session info: chrome=89.0.4389.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/4k/3vyfypg10rv...}, goog:chromeOptions: {debuggerAddress: localhost:57294}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cad1b9aeb0364b7a311f1e3f6fbc9b6
+*** Element info: {Using=xpath, value=Path}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 29 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- explicitWaitTest -->
-        <test-method status="PASS" signature="killSession()[pri:0, instance:com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits@d44fc21]" name="killSession" is-config="true" duration-ms="397" started-at="2021-03-12T11:05:39 IST" finished-at="2021-03-12T11:05:40 IST">
+        </test-method> <!-- fluentWaitTest -->
+        <test-method status="PASS" signature="killSession()[pri:0, instance:com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits@23faf8f2]" name="killSession" is-config="true" duration-ms="120" started-at="2021-03-12T15:53:22 IST" finished-at="2021-03-12T15:53:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killSession -->

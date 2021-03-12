@@ -1,11 +1,16 @@
 package com.vm.SeAutomationTraining;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.*;
@@ -38,11 +43,16 @@ public class ImplicitWaitVsExplicitWaits {
 	}
 	
 	
-	@Test 
-	public void explicitWaitTest() {
+	@BeforeTest
+	public void launchApp() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://parabank.parasoft.com/parabank/index.htm");
+		
+	}
+	
+	//@Test 
+	public void explicitWaitTest() {
 		
 		
 		
@@ -56,10 +66,46 @@ public class ImplicitWaitVsExplicitWaits {
 		String attributeOfEle = driver.findElement(By.cssSelector("div.login input[name='username']")).getAttribute("type");
 		System.out.println("attributeOfEle =======" + attributeOfEle);
 		
-		//wait.until(ExpectedConditions.attributeContains(locator, attribute, value))
-		wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//ul[@class='leftmenu']/li"), 5));
+		wait.until(ExpectedConditions.attributeContains(By.xpath("//ul[@class='leftmenu']/li/a[text()='About Us']"), "href", "about"));
+		
+		
+		wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//ul[@class='leftmenu']/li"), 6));
+		wait.until(ExpectedConditions.numberOfElementsToBeLessThan(By.xpath("//ul[@class='leftmenu']/li"), 7));
 		
 		System.out.println("Test");
 		
 	}
+	
+	
+	@Test
+	public void fluentWaitTest() {
+		FluentWait<WebDriver> fWait = new FluentWait<WebDriver>(driver)
+				.withTimeout(Duration.ofSeconds(10))
+				.pollingEvery(Duration.ofSeconds(4))
+				.ignoring(NoSuchElementException.class)
+				.ignoring(TimeoutException.class)
+				.withMessage("Element not found");
+		
+		fWait.until(ExpectedConditions.elementToBeClickable(By.xpath("Path")));
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

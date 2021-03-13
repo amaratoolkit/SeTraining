@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits">
+      <class name="com.vm.SeAutomationTraining.CollectionTest">
         <methods>
-          <include name="fluentWaitTest"/>
-          <include name="launchApp"/>
-          <include name="killSession"/>
+          <include name="linkedListTest"/>
+          <include name="hashSetTest"/>
+          <include name="hashMap"/>
+          <include name="linkedHashSet"/>
+          <include name="hashTableTest"/>
+          <include name="arrayListTest"/>
         </methods>
-      </class> <!-- com.vm.SeAutomationTraining.ImplicitWaitVsExplicitWaits -->
+      </class> <!-- com.vm.SeAutomationTraining.CollectionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

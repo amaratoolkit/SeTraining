@@ -20,8 +20,8 @@ public class BaseSeAutomation {
 	
 	@BeforeSuite
 	public void launchBrowser() throws MalformedURLException {
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+//		WebDriverManager.chromedriver().setup();
+//		WebDriver driver = new ChromeDriver();
 		
 		
 		DesiredCapabilities dc = new DesiredCapabilities().chrome();

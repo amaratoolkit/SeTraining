@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.UnreachableBrowserException;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -19,14 +20,20 @@ public class BaseSeAutomation {
 	public static WebDriver driver;
 	
 	@BeforeSuite
-	public void launchBrowser() throws MalformedURLException {
-//		WebDriverManager.chromedriver().setup();
+	public void launchBrowser() throws MalformedURLException, InterruptedException {
+		WebDriverManager.chromedriver().setup();
 //		WebDriver driver = new ChromeDriver();
 		
 		DesiredCapabilities dc = new DesiredCapabilities().chrome();
 		
 		dc.setCapability("platform", Platform.UNIX);
-		driver = new RemoteWebDriver(new URL("http://13.233.229.77:4444/wd/hub"), dc);
+		
+		try {
+			driver = new RemoteWebDriver(new URL("http://13.233.229.77:4444/wd/hub"), dc);
+		} catch(UnreachableBrowserException e) {
+			Thread.sleep(20000);
+			driver = new RemoteWebDriver(new URL("http://13.233.229.77:4444/wd/hub"), dc);
+		}
 		
 		
 //		dc.setPlatform(Platform.WINDOWS);

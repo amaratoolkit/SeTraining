@@ -26,7 +26,7 @@ public class BaseSeAutomation {
 		DesiredCapabilities dc = new DesiredCapabilities().chrome();
 		
 		dc.setCapability("platform", Platform.UNIX);
-		driver = new RemoteWebDriver(new URL("http://172.31.46.39:4444/wd/hub"), dc);
+		driver = new RemoteWebDriver(new URL("http://172.17.0.1:4444/wd/hub"), dc);
 		
 		
 //		dc.setPlatform(Platform.WINDOWS);

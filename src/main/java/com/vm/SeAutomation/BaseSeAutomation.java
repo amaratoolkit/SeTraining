@@ -24,11 +24,11 @@ public class BaseSeAutomation {
 		WebDriver driver = new ChromeDriver();
 		
 		
-//		DesiredCapabilities dc = new DesiredCapabilities().chrome();
-//		dc.setPlatform(Platform.WINDOWS);
-		//driver = new RemoteWebDriver(new URL("http://siva266:7Wfwz8qNKAn9X4XyNTXE@hub.browserstack.com:80/wd/hub"), dc);
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		DesiredCapabilities dc = new DesiredCapabilities().chrome();
+		dc.setPlatform(Platform.WINDOWS);
+		driver = new RemoteWebDriver(new URL("http://siva266:7Wfwz8qNKAn9X4XyNTXE@hub.browserstack.com:80/wd/hub"), dc);
+//		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}
 	
 	@BeforeTest

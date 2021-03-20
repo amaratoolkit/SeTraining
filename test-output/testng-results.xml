@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="90" started-at="2021-03-13T11:40:22 IST" finished-at="2021-03-13T11:40:22 IST">
+  <suite name="Default suite" duration-ms="30436" started-at="2021-03-20T18:09:23 IST" finished-at="2021-03-20T18:09:53 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="90" started-at="2021-03-13T11:40:22 IST" finished-at="2021-03-13T11:40:22 IST">
-      <class name="com.vm.SeAutomationTraining.CollectionTest">
-        <test-method status="PASS" signature="arrayListTest()[pri:0, instance:com.vm.SeAutomationTraining.CollectionTest@2a17b7b6]" name="arrayListTest" duration-ms="21" started-at="2021-03-13T11:40:22 IST" finished-at="2021-03-13T11:40:22 IST">
+    <test name="Default test" duration-ms="30436" started-at="2021-03-20T18:09:23 IST" finished-at="2021-03-20T18:09:53 IST">
+      <class name="com.vm.SeAutomationTraining.HandleFileUpload">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vm.SeAutomationTraining.HandleFileUpload@22ff4249]" name="openBrowser" is-config="true" duration-ms="6624" started-at="2021-03-20T18:09:16 IST" finished-at="2021-03-20T18:09:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- arrayListTest -->
-        <test-method status="PASS" signature="linkedListTest()[pri:0, instance:com.vm.SeAutomationTraining.CollectionTest@2a17b7b6]" name="linkedListTest" duration-ms="3" started-at="2021-03-13T11:40:22 IST" depends-on-methods="com.vm.SeAutomationTraining.CollectionTest.arrayListTest" finished-at="2021-03-13T11:40:22 IST">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="acceptJavaScriptAlert()[pri:0, instance:com.vm.SeAutomationTraining.HandleFileUpload@22ff4249]" name="acceptJavaScriptAlert" duration-ms="30399" started-at="2021-03-20T18:09:23 IST" finished-at="2021-03-20T18:09:53 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- linkedListTest -->
-        <test-method status="PASS" signature="hashSetTest()[pri:0, instance:com.vm.SeAutomationTraining.CollectionTest@2a17b7b6]" name="hashSetTest" duration-ms="1" started-at="2021-03-13T11:40:22 IST" depends-on-methods="com.vm.SeAutomationTraining.CollectionTest.linkedListTest" finished-at="2021-03-13T11:40:22 IST">
+        </test-method> <!-- acceptJavaScriptAlert -->
+        <test-method status="PASS" signature="killsession()[pri:0, instance:com.vm.SeAutomationTraining.HandleFileUpload@22ff4249]" name="killsession" is-config="true" duration-ms="104" started-at="2021-03-20T18:09:58 IST" finished-at="2021-03-20T18:09:58 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hashSetTest -->
-        <test-method status="PASS" signature="linkedHashSet()[pri:0, instance:com.vm.SeAutomationTraining.CollectionTest@2a17b7b6]" name="linkedHashSet" duration-ms="2" started-at="2021-03-13T11:40:22 IST" depends-on-methods="com.vm.SeAutomationTraining.CollectionTest.hashSetTest" finished-at="2021-03-13T11:40:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linkedHashSet -->
-        <test-method status="PASS" signature="hashMap()[pri:0, instance:com.vm.SeAutomationTraining.CollectionTest@2a17b7b6]" name="hashMap" duration-ms="2" started-at="2021-03-13T11:40:22 IST" depends-on-methods="com.vm.SeAutomationTraining.CollectionTest.linkedHashSet" finished-at="2021-03-13T11:40:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hashMap -->
-        <test-method status="PASS" signature="hashTableTest()[pri:0, instance:com.vm.SeAutomationTraining.CollectionTest@2a17b7b6]" name="hashTableTest" duration-ms="1" started-at="2021-03-13T11:40:22 IST" depends-on-methods="com.vm.SeAutomationTraining.CollectionTest.hashMap" finished-at="2021-03-13T11:40:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hashTableTest -->
-      </class> <!-- com.vm.SeAutomationTraining.CollectionTest -->
+        </test-method> <!-- killsession -->
+      </class> <!-- com.vm.SeAutomationTraining.HandleFileUpload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

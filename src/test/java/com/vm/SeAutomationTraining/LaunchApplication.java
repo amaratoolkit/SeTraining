@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
@@ -27,6 +28,11 @@ public class LaunchApplication {
 		//driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 		
 		
+	}
+	
+	@AfterSuite
+	public void killsession() {
+	driver.quit();
 	}
 
 }

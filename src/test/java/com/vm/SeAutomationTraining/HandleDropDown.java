@@ -1,5 +1,9 @@
 package com.vm.SeAutomationTraining;
 
+import static org.testng.Assert.assertTrue;
+
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -14,6 +18,10 @@ public class HandleDropDown extends LaunchApplication{
 		
 		WebElement jobTitle = driver.findElement(By.name("UserTitle"));
 		
+		jobTitle.isDisplayed();
+		
+		assertTrue(jobTitle.isDisplayed());
+		
 		Select selctJobTilte = new Select(jobTitle);
 		
 //		selctJobTilte.selectByIndex(5);
@@ -27,6 +35,14 @@ public class HandleDropDown extends LaunchApplication{
 		System.out.println("actualSelctedOption======" + actualSelctedOption);
 		
 		Assert.assertEquals(actualSelctedOption, "Others");
+		
+		List<WebElement> ele = driver.findElements(By.xpath("Test"));
+		//[]
+	}
+	
+	@Test
+	public void test() {
+		System.out.println("Test");
 	}
 	
 	

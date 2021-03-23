@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30436" started-at="2021-03-20T18:09:23 IST" finished-at="2021-03-20T18:09:53 IST">
+  <suite name="Default suite" duration-ms="5156" started-at="2021-03-23T15:45:40 IST" finished-at="2021-03-23T15:45:45 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30436" started-at="2021-03-20T18:09:23 IST" finished-at="2021-03-20T18:09:53 IST">
-      <class name="com.vm.SeAutomationTraining.HandleFileUpload">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vm.SeAutomationTraining.HandleFileUpload@22ff4249]" name="openBrowser" is-config="true" duration-ms="6624" started-at="2021-03-20T18:09:16 IST" finished-at="2021-03-20T18:09:23 IST">
+    <test name="Default test" duration-ms="5156" started-at="2021-03-23T15:45:40 IST" finished-at="2021-03-23T15:45:45 IST">
+      <class name="com.vm.SeAutomationTraining.GetAllLinks">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vm.SeAutomationTraining.GetAllLinks@2d6eabae]" name="openBrowser" is-config="true" duration-ms="61923" started-at="2021-03-23T15:44:38 IST" finished-at="2021-03-23T15:45:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="acceptJavaScriptAlert()[pri:0, instance:com.vm.SeAutomationTraining.HandleFileUpload@22ff4249]" name="acceptJavaScriptAlert" duration-ms="30399" started-at="2021-03-20T18:09:23 IST" finished-at="2021-03-20T18:09:53 IST">
+        <test-method status="PASS" signature="verifyAllLinks()[pri:0, instance:com.vm.SeAutomationTraining.GetAllLinks@2d6eabae]" name="verifyAllLinks" duration-ms="5134" started-at="2021-03-23T15:45:40 IST" finished-at="2021-03-23T15:45:45 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- acceptJavaScriptAlert -->
-        <test-method status="PASS" signature="killsession()[pri:0, instance:com.vm.SeAutomationTraining.HandleFileUpload@22ff4249]" name="killsession" is-config="true" duration-ms="104" started-at="2021-03-20T18:09:58 IST" finished-at="2021-03-20T18:09:58 IST">
+        </test-method> <!-- verifyAllLinks -->
+        <test-method status="PASS" signature="killsession()[pri:0, instance:com.vm.SeAutomationTraining.GetAllLinks@2d6eabae]" name="killsession" is-config="true" duration-ms="110" started-at="2021-03-23T15:45:50 IST" finished-at="2021-03-23T15:45:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killsession -->
-      </class> <!-- com.vm.SeAutomationTraining.HandleFileUpload -->
+      </class> <!-- com.vm.SeAutomationTraining.GetAllLinks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

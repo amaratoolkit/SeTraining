@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vm.SeAutomationTraining.HandleFileUpload">
+      <class name="com.vm.SeAutomationTraining.HandleMouseHover">
         <methods>
           <include name="killsession"/>
           <include name="openBrowser"/>
-          <include name="acceptJavaScriptAlert"/>
+          <include name="mouseHoverAndClickOnEleemnt"/>
         </methods>
-      </class> <!-- com.vm.SeAutomationTraining.HandleFileUpload -->
+      </class> <!-- com.vm.SeAutomationTraining.HandleMouseHover -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

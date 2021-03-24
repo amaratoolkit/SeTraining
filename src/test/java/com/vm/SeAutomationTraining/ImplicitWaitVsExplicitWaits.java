@@ -57,7 +57,7 @@ public class ImplicitWaitVsExplicitWaits {
 		
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("test")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("test")));
 		wait
 		.until(ExpectedConditions
 				.visibilityOf(driver.findElement(By.name("username"))))

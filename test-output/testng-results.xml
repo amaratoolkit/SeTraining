@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5156" started-at="2021-03-23T15:45:40 IST" finished-at="2021-03-23T15:45:45 IST">
+  <suite name="Default suite" duration-ms="7333" started-at="2021-03-24T16:19:55 IST" finished-at="2021-03-24T16:20:02 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5156" started-at="2021-03-23T15:45:40 IST" finished-at="2021-03-23T15:45:45 IST">
-      <class name="com.vm.SeAutomationTraining.GetAllLinks">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vm.SeAutomationTraining.GetAllLinks@2d6eabae]" name="openBrowser" is-config="true" duration-ms="61923" started-at="2021-03-23T15:44:38 IST" finished-at="2021-03-23T15:45:40 IST">
+    <test name="Default test" duration-ms="7333" started-at="2021-03-24T16:19:55 IST" finished-at="2021-03-24T16:20:02 IST">
+      <class name="com.vm.SeAutomationTraining.HandleFrames">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vm.SeAutomationTraining.HandleFrames@2d6eabae]" name="openBrowser" is-config="true" duration-ms="2619" started-at="2021-03-24T16:19:53 IST" finished-at="2021-03-24T16:19:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyAllLinks()[pri:0, instance:com.vm.SeAutomationTraining.GetAllLinks@2d6eabae]" name="verifyAllLinks" duration-ms="5134" started-at="2021-03-23T15:45:40 IST" finished-at="2021-03-23T15:45:45 IST">
+        <test-method status="PASS" signature="switchToNestedFramesTest()[pri:0, instance:com.vm.SeAutomationTraining.HandleFrames@2d6eabae]" name="switchToNestedFramesTest" duration-ms="7311" started-at="2021-03-24T16:19:55 IST" finished-at="2021-03-24T16:20:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAllLinks -->
-        <test-method status="PASS" signature="killsession()[pri:0, instance:com.vm.SeAutomationTraining.GetAllLinks@2d6eabae]" name="killsession" is-config="true" duration-ms="110" started-at="2021-03-23T15:45:50 IST" finished-at="2021-03-23T15:45:50 IST">
+        </test-method> <!-- switchToNestedFramesTest -->
+        <test-method status="PASS" signature="killsession()[pri:0, instance:com.vm.SeAutomationTraining.HandleFrames@2d6eabae]" name="killsession" is-config="true" duration-ms="95" started-at="2021-03-24T16:20:07 IST" finished-at="2021-03-24T16:20:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killsession -->
-      </class> <!-- com.vm.SeAutomationTraining.GetAllLinks -->
+      </class> <!-- com.vm.SeAutomationTraining.HandleFrames -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

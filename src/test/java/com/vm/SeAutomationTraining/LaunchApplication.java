@@ -19,7 +19,8 @@ public class LaunchApplication {
 		WebDriverManager.chromedriver().setup();
 		//System.setProperty("webdriver.chrome.driver", "/Users/sivareddyk/eclipse-workspace-Android/SeAutomationTraining/browserDrivers/chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("http://automationpractice.com/index.php?controller=authentication");
+		driver.manage().deleteAllCookies();
+		driver.get("http://automationpractice.com/");
 		
 		// we should not use in the frameworks
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

@@ -2,25 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
+    <parameter name="searchText" value="TestNG Automation"/>
+    <parameter name="url" value="http://automationpractice.com/index.php"/>
     <classes>
-      <class name="com.vm.SeAutomationTests.AddRemoveElementsTest">
+      <class name="com.vm.SeAutomationTraining.TestNGParameterization">
         <methods>
-          <include name="launchApplication"/>
-          <include name="launchBrowser"/>
-          <include name="killSession"/>
-          <include name="verifyAddRemoveHeading"/>
-          <include name="initilizePages"/>
+          <include name="testinParameters" invocation-numbers="0"/>
+          <include name="killsession"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.vm.SeAutomationTests.AddRemoveElementsTest -->
-      <class name="com.vm.SeAutomationTests.HomeTest">
-        <methods>
-          <include name="launchApplication"/>
-          <include name="launchBrowser"/>
-          <include name="killSession"/>
-          <include name="initializePages"/>
-          <include name="verifyHomePage"/>
-        </methods>
-      </class> <!-- com.vm.SeAutomationTests.HomeTest -->
+      </class> <!-- com.vm.SeAutomationTraining.TestNGParameterization -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -2,24 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7333" started-at="2021-03-24T16:19:55 IST" finished-at="2021-03-24T16:20:02 IST">
+  <suite name="Default suite" duration-ms="10942" started-at="2021-03-31T11:05:48 IST" finished-at="2021-03-31T11:05:59 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7333" started-at="2021-03-24T16:19:55 IST" finished-at="2021-03-24T16:20:02 IST">
-      <class name="com.vm.SeAutomationTraining.HandleFrames">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vm.SeAutomationTraining.HandleFrames@2d6eabae]" name="openBrowser" is-config="true" duration-ms="2619" started-at="2021-03-24T16:19:53 IST" finished-at="2021-03-24T16:19:55 IST">
+    <test name="Default test" duration-ms="10942" started-at="2021-03-31T11:05:48 IST" finished-at="2021-03-31T11:05:59 IST">
+      <class name="com.vm.SeAutomationTraining.TestNGParameterization">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vm.SeAutomationTraining.TestNGParameterization@64729b1e]" name="openBrowser" is-config="true" duration-ms="2980" started-at="2021-03-31T11:05:45 IST" finished-at="2021-03-31T11:05:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="switchToNestedFramesTest()[pri:0, instance:com.vm.SeAutomationTraining.HandleFrames@2d6eabae]" name="switchToNestedFramesTest" duration-ms="7311" started-at="2021-03-24T16:19:55 IST" finished-at="2021-03-24T16:20:02 IST">
+        <test-method status="PASS" signature="testinParameters(java.lang.String, java.lang.String)[pri:0, instance:com.vm.SeAutomationTraining.TestNGParameterization@64729b1e]" name="testinParameters" duration-ms="10911" started-at="2021-03-31T11:05:48 IST" finished-at="2021-03-31T11:05:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing Selenium]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- switchToNestedFramesTest -->
-        <test-method status="PASS" signature="killsession()[pri:0, instance:com.vm.SeAutomationTraining.HandleFrames@2d6eabae]" name="killsession" is-config="true" duration-ms="95" started-at="2021-03-24T16:20:07 IST" finished-at="2021-03-24T16:20:08 IST">
+        </test-method> <!-- testinParameters -->
+        <test-method status="PASS" signature="killsession()[pri:0, instance:com.vm.SeAutomationTraining.TestNGParameterization@64729b1e]" name="killsession" is-config="true" duration-ms="130" started-at="2021-03-31T11:06:04 IST" finished-at="2021-03-31T11:06:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killsession -->
-      </class> <!-- com.vm.SeAutomationTraining.HandleFrames -->
+      </class> <!-- com.vm.SeAutomationTraining.TestNGParameterization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

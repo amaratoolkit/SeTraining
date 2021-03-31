@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vm.SeAutomationTraining.HandleFrames">
+      <class name="com.vm.SeAutomationTraining.TestNGParameterization">
         <methods>
+          <include name="testinParameters"/>
           <include name="killsession"/>
-          <include name="switchToNestedFramesTest"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.vm.SeAutomationTraining.HandleFrames -->
+      </class> <!-- com.vm.SeAutomationTraining.TestNGParameterization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

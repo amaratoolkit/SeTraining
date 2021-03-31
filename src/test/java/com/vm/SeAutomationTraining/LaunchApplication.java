@@ -21,7 +21,7 @@ public class LaunchApplication {
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.get("http://automationpractice.com/");
-		
+		driver.manage().deleteAllCookies();
 		// we should not use in the frameworks
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		

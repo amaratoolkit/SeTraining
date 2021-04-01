@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vm.SeAutomationTraining.TestNGParameterization" hash-for-method="testinParameters(http://automationpractice.com/index.php, Testing Selenium)">testinParameters(http://automationpractice.com/index.php, Testing Selenium)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vm.SeAutomationTraining.UsingDataProvider" hash-for-method="dataProviderTest3(siva@yopmail.com, AWS Automation)">dataProviderTest3(siva@yopmail.com, AWS Automation)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vm.SeAutomationTraining.UsingDataProvider" hash-for-method="dataProviderTest3(siva@yopmail.com, GCP Automation)">dataProviderTest3(siva@yopmail.com, GCP Automation)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.vm.SeAutomationTraining.UsingDataProvider" hash-for-method="dataProviderTest3(siva@yopmail.com, Azure Automation)">dataProviderTest3(siva@yopmail.com, Azure Automation)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,15 +130,31 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.vm.SeAutomationTraining.TestNGParameterization</span>
+              <span class="class-name">com.vm.SeAutomationTraining.UsingDataProvider</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testinParameters(http://automationpractice.com/index.php, Testing Selenium)">
-                  </a> <!-- testinParameters(http://automationpractice.com/index.php, Testing Selenium) -->
-                  <span class="method-name">testinParameters</span>
-                  <span class="parameters">(http://automationpractice.com/index.php, Testing Selenium)</span>
+                  <a name="dataProviderTest3(siva@yopmail.com, AWS Automation)">
+                  </a> <!-- dataProviderTest3(siva@yopmail.com, AWS Automation) -->
+                  <span class="method-name">dataProviderTest3</span>
+                  <span class="parameters">(siva@yopmail.com, AWS Automation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataProviderTest3(siva@yopmail.com, GCP Automation)">
+                  </a> <!-- dataProviderTest3(siva@yopmail.com, GCP Automation) -->
+                  <span class="method-name">dataProviderTest3</span>
+                  <span class="parameters">(siva@yopmail.com, GCP Automation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataProviderTest3(siva@yopmail.com, Azure Automation)">
+                  </a> <!-- dataProviderTest3(siva@yopmail.com, Azure Automation) -->
+                  <span class="method-name">dataProviderTest3</span>
+                  <span class="parameters">(siva@yopmail.com, Azure Automation)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +162,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/4k/3vyfypg10rv3l48m1pc23jbr0000gp/T/testng-eclipse--772870366/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/4k/3vyfypg10rv3l48m1pc23jbr0000gp/T/testng-eclipse-1089880266/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +171,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.vm.SeAutomationTraining.TestNGParameterization&quot;/&gt;
+      &lt;class name=&quot;com.vm.SeAutomationTraining.UsingDataProvider&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -185,16 +211,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testinParameters')
-data.setCell(0, 2, 'com.vm.SeAutomationTraining.TestNGParameterization')
-data.setCell(0, 3, 10911);
+data.setCell(0, 1, 'dataProviderTest3')
+data.setCell(0, 2, 'com.vm.SeAutomationTraining.UsingDataProvider')
+data.setCell(0, 3, 21228);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dataProviderTest3')
+data.setCell(1, 2, 'com.vm.SeAutomationTraining.UsingDataProvider')
+data.setCell(1, 3, 14197);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dataProviderTest3')
+data.setCell(2, 2, 'com.vm.SeAutomationTraining.UsingDataProvider')
+data.setCell(2, 3, 8707);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -220,18 +254,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.vm.SeAutomationTraining.TestNGParameterization</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.vm.SeAutomationTraining.UsingDataProvider</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">openBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
-                <span class="method-name">testinParameters(http://automationpractice.com/index.php, Testing Selenium)</span>
-                <span class="method-start">3007 ms</span>
+                <span class="method-name">dataProviderTest3(siva@yopmail.com, Azure Automation)</span>
+                <span class="method-start">2722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataProviderTest3(siva@yopmail.com, AWS Automation)</span>
+                <span class="method-start">23955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataProviderTest3(siva@yopmail.com, GCP Automation)</span>
+                <span class="method-start">38153 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">killsession</span>
-                <span class="method-start">18940 ms</span>
+                <span class="method-start">51884 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,37 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10942" started-at="2021-03-31T11:05:48 IST" finished-at="2021-03-31T11:05:59 IST">
+  <suite name="Default suite" duration-ms="44178" started-at="2021-04-01T11:01:06 IST" finished-at="2021-04-01T11:01:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10942" started-at="2021-03-31T11:05:48 IST" finished-at="2021-03-31T11:05:59 IST">
-      <class name="com.vm.SeAutomationTraining.TestNGParameterization">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vm.SeAutomationTraining.TestNGParameterization@64729b1e]" name="openBrowser" is-config="true" duration-ms="2980" started-at="2021-03-31T11:05:45 IST" finished-at="2021-03-31T11:05:48 IST">
+    <test name="Default test" duration-ms="44178" started-at="2021-04-01T11:01:06 IST" finished-at="2021-04-01T11:01:50 IST">
+      <class name="com.vm.SeAutomationTraining.UsingDataProvider">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vm.SeAutomationTraining.UsingDataProvider@2d1ef81a]" name="openBrowser" is-config="true" duration-ms="2685" started-at="2021-04-01T11:01:03 IST" finished-at="2021-04-01T11:01:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testinParameters(java.lang.String, java.lang.String)[pri:0, instance:com.vm.SeAutomationTraining.TestNGParameterization@64729b1e]" name="testinParameters" duration-ms="10911" started-at="2021-03-31T11:05:48 IST" finished-at="2021-03-31T11:05:59 IST">
+        <test-method status="PASS" signature="dataProviderTest3(java.lang.String, java.lang.String)[pri:0, instance:com.vm.SeAutomationTraining.UsingDataProvider@2d1ef81a]" name="dataProviderTest3" duration-ms="21228" started-at="2021-04-01T11:01:06 IST" data-provider="automation3" finished-at="2021-04-01T11:01:27 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[http://automationpractice.com/index.php]]>
+                <![CDATA[siva@yopmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Testing Selenium]]>
+                <![CDATA[Azure Automation]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testinParameters -->
-        <test-method status="PASS" signature="killsession()[pri:0, instance:com.vm.SeAutomationTraining.TestNGParameterization@64729b1e]" name="killsession" is-config="true" duration-ms="130" started-at="2021-03-31T11:06:04 IST" finished-at="2021-03-31T11:06:04 IST">
+        </test-method> <!-- dataProviderTest3 -->
+        <test-method status="PASS" signature="dataProviderTest3(java.lang.String, java.lang.String)[pri:0, instance:com.vm.SeAutomationTraining.UsingDataProvider@2d1ef81a]" name="dataProviderTest3" duration-ms="14197" started-at="2021-04-01T11:01:27 IST" data-provider="automation3" finished-at="2021-04-01T11:01:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[siva@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AWS Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest3 -->
+        <test-method status="PASS" signature="dataProviderTest3(java.lang.String, java.lang.String)[pri:0, instance:com.vm.SeAutomationTraining.UsingDataProvider@2d1ef81a]" name="dataProviderTest3" duration-ms="8707" started-at="2021-04-01T11:01:42 IST" data-provider="automation3" finished-at="2021-04-01T11:01:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[siva@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GCP Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest3 -->
+        <test-method status="PASS" signature="killsession()[pri:0, instance:com.vm.SeAutomationTraining.UsingDataProvider@2d1ef81a]" name="killsession" is-config="true" duration-ms="115" started-at="2021-04-01T11:01:55 IST" finished-at="2021-04-01T11:01:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killsession -->
-      </class> <!-- com.vm.SeAutomationTraining.TestNGParameterization -->
+      </class> <!-- com.vm.SeAutomationTraining.UsingDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

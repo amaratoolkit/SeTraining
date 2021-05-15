@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vm.SeAutomationTraining.TakeScreensotIfTestFails">
+      <class name="com.vm.SeAutomationTraining.StringsPractice">
         <methods>
-          <include name="test"/>
-          <include name="getScreenshotIfTestFails"/>
-          <include name="killsession"/>
-          <include name="openBrowser"/>
+          <include name="reverseAString"/>
         </methods>
-      </class> <!-- com.vm.SeAutomationTraining.TakeScreensotIfTestFails -->
+      </class> <!-- com.vm.SeAutomationTraining.StringsPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

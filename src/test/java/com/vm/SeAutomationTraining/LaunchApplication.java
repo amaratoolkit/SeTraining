@@ -27,6 +27,7 @@ public class LaunchApplication {
 		
 		//make it zero
 		//driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+		System.out.println("");
 		
 		
 	}

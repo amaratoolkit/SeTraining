@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="1000">
+		<parameter name="numberOfFolders"
+			value="thousand"></parameter>
+		<classes>
+			<class
+				name="features.performancetests.LoginAndNavigateViaNotification" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="750">
+		<parameter name="numberOfFolders"
+			value="750"></parameter>
+		<classes>
+			<class
+				name="features.performancetests.LoginAndNavigateViaNotification" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="500">
+		<parameter name="numberOfFolders"
+			value="500"></parameter>
+		<classes>
+			<class
+				name="features.performancetests.LoginAndNavigateViaNotification" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

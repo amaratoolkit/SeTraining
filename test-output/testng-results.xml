@@ -2,16 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53" started-at="2021-05-11T11:01:09 IST" finished-at="2021-05-11T11:01:09 IST">
+  <suite name="Default suite" duration-ms="62" started-at="2021-06-17T08:59:31 IST" finished-at="2021-06-17T08:59:31 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53" started-at="2021-05-11T11:01:09 IST" finished-at="2021-05-11T11:01:09 IST">
-      <class name="com.vm.SeAutomationTraining.StringsPractice">
-        <test-method status="PASS" signature="printNumberOfDuplicatesStringInString()[pri:0, instance:com.vm.SeAutomationTraining.StringsPractice@5bf0d49]" name="printNumberOfDuplicatesStringInString" duration-ms="10" started-at="2021-05-11T11:01:09 IST" finished-at="2021-05-11T11:01:09 IST">
+    <test name="Default test" duration-ms="62" started-at="2021-06-17T08:59:31 IST" finished-at="2021-06-17T08:59:31 IST">
+      <class name="com.vm.SeAutomationTraining.TakeSceenshotTest">
+        <test-method status="PASS" signature="test(java.lang.reflect.Method)[pri:0, instance:com.vm.SeAutomationTraining.TakeSceenshotTest@711f39f9]" name="test" duration-ms="21" started-at="2021-06-17T08:59:31 IST" finished-at="2021-06-17T08:59:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.vm.SeAutomationTraining.TakeSceenshotTest.test(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printNumberOfDuplicatesStringInString -->
-      </class> <!-- com.vm.SeAutomationTraining.StringsPractice -->
+        </test-method> <!-- test -->
+      </class> <!-- com.vm.SeAutomationTraining.TakeSceenshotTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

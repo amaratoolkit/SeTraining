@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Auto">
+		<parameter name="url"
+			value="http://automationpractice.com/index.php"></parameter>
+		<classes>
+			<class
+				name="com.vm.SeAutomationTraining.TestNGParameterizingMultiple" />
+		</classes>
+	</test> <!-- Test -->
+
+<!-- 	<test thread-count="5" name="Hero">
+		<parameter name="url"
+			value="http://the-internet.herokuapp.com/"></parameter>
+		<classes>
+			<class
+				name="com.vm.SeAutomationTraining.TestNGParameterizingMultiple" />
+		</classes>
+	</test> Test
+
+	<test thread-count="5" name="Para">
+		<parameter name="url"
+			value="https://parabank.parasoft.com/parabank/index.htm"></parameter>
+		<classes>
+			<class
+				name="com.vm.SeAutomationTraining.TestNGParameterizingMultiple" />
+		</classes>
+	</test> Test
+ --></suite> <!-- Suite -->
